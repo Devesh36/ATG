@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar" style="height: 72px">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand"
+          style="margin-left: 72px; margin-top: auto; margin-bottom: auto"
+        >
+          <img src="assets/logo.png" alt="" />
+        </a>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+        </form>
+        <button type="button" class="btn btn-light">
+          Create account.
+          <span style="color: blue"> It's free!</span>
+        </button>
+      </div>
+    </nav>
+    <section style="position: relative">
+      <img
+        src="assets/hero_bg.png"
+        alt=""
+        width="100%"
+        style="filter: brightness(50%)"
+      />
+      <div style="position: absolute; bottom: 107px; left: 200px">
+        <div
+          style="
+            color: white;
+            font-size: 18px;
+            z-index: 10;
+            font-family: IBM Plex Sans;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          "
+        >
+          Computer Engineering
+        </div>
+        <div
+          style="
+            color: #fff;
+            font-family: IBM Plex Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          "
+        >
+          142,765 Computer Engineers follow this
+        </div>
+      </div>
+    </section>
+    <section style="margin-left: 20%; margin-right: 20%">
+      <nav
+        class="navbar navbar-expand-lg"
+        style="border-bottom: px; border: black; border: 20px"
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >All Posts(32)</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Article</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Event</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Job</a>
+              </li>
+            </ul>
+            <div>
+              <button type="button" class="btn btn-secondary">
+                Write a post
+              </button>
+              <button type="button" class="btn btn-primary">Join Group</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div style="display: grid; grid-template-columns: 2fr 1fr">
+        <div>
+          <div
+            style="
+              border-radius: 0.25rem;
+              border: 1px solid #e0e0e0;
+              background: #fff;
+              width: 43.25rem;
+              margin-bottom: 1rem;
+              flex-shrink: 0;
+            "
+          >
+            <img
+              src="assets/hero_bg.png"
+              alt=""
+              width="100%"
+              style="
+                filter: brightness(50%);
+                width: 43.25rem;
+                height: 13.75rem;
+                flex-shrink: 0;
+                border-radius: 0.25rem 0.25rem 0rem 0rem;
+              "
+            />
+            <div style="margin: 20px">
+              <div
+                style="
+                  color: #000;
+                  font-family: IBM Plex Sans;
+                  font-size: 1.125rem;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: normal;
+                "
+              >
+                Artclie
+              </div>
+              <div
+                class=""
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  width: 100%;
+                  align-items: center;
+                  padding-top: 1rem;
+                "
+              >
+                <h1
+                  style="
+                    color: #000;
+                    font-family: IBM Plex Sans;
+                    font-size: 1.375rem;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 134.167%;
+                    display: inline-block;
+                    width: 37.5rem;
+                  "
+                >
+                  What if famous brands had regular fonts? Meet RegulaBrands!
+                </h1>
+                <div class="dropdown" style="display: inline-block">
+                  <button
+                    class="btn btn-light"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-three-dots"
+                      viewBox="0 0 16 16"
+                      style="color: black"
+                    >
+                      <path
+                        d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"
+                      />
+                    </svg>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                style="
+                  color: #5c5c5c;
+                  font-family: IBM Plex Sans;
+                  font-size: 1.1875rem;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 134.167%;
+                  width: 40.75rem;
+                "
+              >
+                I’ve worked in UX for the better part of a decade. From now on,
+                I plan to rei…
+              </div>
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  padding-top: 1rem;
+                "
+              >
+                <div>
+                  <div>
+                    <img
+                      src="/assets/profiles/p1.jpg"
+                      alt=""
+                      style="
+                        border-radius: 1.5rem;
+                        width: 3rem;
+                        height: 3rem;
+                        flex-shrink: 0;
+                      "
+                    />
+                    <span
+                      style="
+                        color: #000;
+                        font-family: IBM Plex Sans;
+                        font-size: 1.125rem;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                      "
+                      >Sarthak Kamra</span
+                    >
+                  </div>
+                </div>
+                <div>
+                  <div style="display: inline-block">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-eye"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                      />
+                      <path
+                        d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                      />
+                    </svg>
+                    <span
+                      style="
+                        color: #525252;
+                        text-align: right;
+                        font-family: IBM Plex Sans;
+                        font-size: 0.875rem;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                      "
+                      >1.4k views</span
+                    >
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    style="display: inline-block"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-share-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            style="
+              border-radius: 0.25rem;
+              border: 1px solid #e0e0e0;
+              background: #fff;
+              width: 43.25rem;
+              margin-bottom: 1rem;
+              flex-shrink: 0;
+            "
+          >
+            <img
+              src="assets/hero_bg.png"
+              alt=""
+              width="100%"
+              style="
+                filter: brightness(50%);
+                width: 43.25rem;
+                height: 13.75rem;
+                flex-shrink: 0;
+                border-radius: 0.25rem 0.25rem 0rem 0rem;
+              "
+            />
+            <div style="margin: 20px">
+              <div
+                style="
+                  color: #000;
+                  font-family: IBM Plex Sans;
+                  font-size: 1.125rem;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: normal;
+                "
+              >
+                Artclie
+              </div>
+              <div
+                class=""
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  width: 100%;
+                  align-items: center;
+                  padding-top: 1rem;
+                "
+              >
+                <h1
+                  style="
+                    color: #000;
+                    font-family: IBM Plex Sans;
+                    font-size: 1.375rem;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 134.167%;
+                    display: inline-block;
+                    width: 37.5rem;
+                  "
+                >
+                  What if famous brands had regular fonts? Meet RegulaBrands!
+                </h1>
+                <div class="dropdown" style="display: inline-block">
+                  <button
+                    class="btn btn-light"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-three-dots"
+                      viewBox="0 0 16 16"
+                      style="color: black"
+                    >
+                      <path
+                        d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"
+                      />
+                    </svg>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                style="
+                  color: #5c5c5c;
+                  font-family: IBM Plex Sans;
+                  font-size: 1.1875rem;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 134.167%;
+                  width: 40.75rem;
+                "
+              >
+                I’ve worked in UX for the better part of a decade. From now on,
+                I plan to rei…
+              </div>
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  padding-top: 1rem;
+                "
+              >
+                <div>
+                  <div>
+                    <img
+                      src="/assets/profiles/p1.jpg"
+                      alt=""
+                      style="
+                        border-radius: 1.5rem;
+                        width: 3rem;
+                        height: 3rem;
+                        flex-shrink: 0;
+                      "
+                    />
+                    <span
+                      style="
+                        color: #000;
+                        font-family: IBM Plex Sans;
+                        font-size: 1.125rem;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                      "
+                      >Sarthak Kamra</span
+                    >
+                  </div>
+                </div>
+                <div>
+                  <div style="display: inline-block">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-eye"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                      />
+                      <path
+                        d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                      />
+                    </svg>
+                    <span
+                      style="
+                        color: #525252;
+                        text-align: right;
+                        font-family: IBM Plex Sans;
+                        font-size: 0.875rem;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                      "
+                      >1.4k views</span
+                    >
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    style="display: inline-block"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-share-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            style="
+              border-radius: 0.25rem;
+              border: 1px solid #e0e0e0;
+              background: #fff;
+              width: 43.25rem;
+              margin-bottom: 1rem;
+              flex-shrink: 0;
+            "
+          >
+            <img
+              src="assets/hero_bg.png"
+              alt=""
+              width="100%"
+              style="
+                filter: brightness(50%);
+                width: 43.25rem;
+                height: 13.75rem;
+                flex-shrink: 0;
+                border-radius: 0.25rem 0.25rem 0rem 0rem;
+              "
+            />
+            <div style="margin: 20px">
+              <div
+                style="
+                  color: #000;
+                  font-family: IBM Plex Sans;
+                  font-size: 1.125rem;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: normal;
+                "
+              >
+                Artclie
+              </div>
+              <div
+                class=""
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  width: 100%;
+                  align-items: center;
+                  padding-top: 1rem;
+                "
+              >
+                <h1
+                  style="
+                    color: #000;
+                    font-family: IBM Plex Sans;
+                    font-size: 1.375rem;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 134.167%;
+                    display: inline-block;
+                    width: 37.5rem;
+                  "
+                >
+                  What if famous brands had regular fonts? Meet RegulaBrands!
+                </h1>
+                <div class="dropdown" style="display: inline-block">
+                  <button
+                    class="btn btn-light"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-three-dots"
+                      viewBox="0 0 16 16"
+                      style="color: black"
+                    >
+                      <path
+                        d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"
+                      />
+                    </svg>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                style="
+                  color: #5c5c5c;
+                  font-family: IBM Plex Sans;
+                  font-size: 1.1875rem;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 134.167%;
+                  width: 40.75rem;
+                "
+              >
+                I’ve worked in UX for the better part of a decade. From now on,
+                I plan to rei…
+              </div>
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  padding-top: 1rem;
+                "
+              >
+                <div>
+                  <div>
+                    <img
+                      src="/assets/profiles/p1.jpg"
+                      alt=""
+                      style="
+                        border-radius: 1.5rem;
+                        width: 3rem;
+                        height: 3rem;
+                        flex-shrink: 0;
+                      "
+                    />
+                    <span
+                      style="
+                        color: #000;
+                        font-family: IBM Plex Sans;
+                        font-size: 1.125rem;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                      "
+                      >Sarthak Kamra</span
+                    >
+                  </div>
+                </div>
+                <div>
+                  <div style="display: inline-block">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-eye"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                      />
+                      <path
+                        d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                      />
+                    </svg>
+                    <span
+                      style="
+                        color: #525252;
+                        text-align: right;
+                        font-family: IBM Plex Sans;
+                        font-size: 0.875rem;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                      "
+                      >1.4k views</span
+                    >
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    style="display: inline-block"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-share-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            style="
+              border-radius: 0.25rem;
+              border: 1px solid #e0e0e0;
+              background: #fff;
+              width: 43.25rem;
+              margin-bottom: 1rem;
+              flex-shrink: 0;
+            "
+          >
+            <img
+              src="assets/hero_bg.png"
+              alt=""
+              width="100%"
+              style="
+                filter: brightness(50%);
+                width: 43.25rem;
+                height: 13.75rem;
+                flex-shrink: 0;
+                border-radius: 0.25rem 0.25rem 0rem 0rem;
+              "
+            />
+            <div style="margin: 20px">
+              <div
+                style="
+                  color: #000;
+                  font-family: IBM Plex Sans;
+                  font-size: 1.125rem;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: normal;
+                "
+              >
+                Artclie
+              </div>
+              <div
+                class=""
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  width: 100%;
+                  align-items: center;
+                  padding-top: 1rem;
+                "
+              >
+                <h1
+                  style="
+                    color: #000;
+                    font-family: IBM Plex Sans;
+                    font-size: 1.375rem;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 134.167%;
+                    display: inline-block;
+                    width: 37.5rem;
+                  "
+                >
+                  What if famous brands had regular fonts? Meet RegulaBrands!
+                </h1>
+                <div class="dropdown" style="display: inline-block">
+                  <button
+                    class="btn btn-light"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-three-dots"
+                      viewBox="0 0 16 16"
+                      style="color: black"
+                    >
+                      <path
+                        d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"
+                      />
+                    </svg>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                style="
+                  color: #5c5c5c;
+                  font-family: IBM Plex Sans;
+                  font-size: 1.1875rem;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 134.167%;
+                  width: 40.75rem;
+                "
+              >
+                I’ve worked in UX for the better part of a decade. From now on,
+                I plan to rei…
+              </div>
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  padding-top: 1rem;
+                "
+              >
+                <div>
+                  <div>
+                    <img
+                      src="/assets/profiles/p1.jpg"
+                      alt=""
+                      style="
+                        border-radius: 1.5rem;
+                        width: 3rem;
+                        height: 3rem;
+                        flex-shrink: 0;
+                      "
+                    />
+                    <span
+                      style="
+                        color: #000;
+                        font-family: IBM Plex Sans;
+                        font-size: 1.125rem;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                      "
+                      >Sarthak Kamra</span
+                    >
+                  </div>
+                </div>
+                <div>
+                  <div style="display: inline-block">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-eye"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                      />
+                      <path
+                        d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                      />
+                    </svg>
+                    <span
+                      style="
+                        color: #525252;
+                        text-align: right;
+                        font-family: IBM Plex Sans;
+                        font-size: 0.875rem;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                      "
+                      >1.4k views</span
+                    >
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    style="display: inline-block"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-share-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            style="
+              border-radius: 0.25rem;
+              border: 1px solid #e0e0e0;
+              background: #fff;
+              width: 43.25rem;
+              margin-bottom: 1rem;
+              flex-shrink: 0;
+            "
+          >
+            <img
+              src="assets/hero_bg.png"
+              alt=""
+              width="100%"
+              style="
+                filter: brightness(50%);
+                width: 43.25rem;
+                height: 13.75rem;
+                flex-shrink: 0;
+                border-radius: 0.25rem 0.25rem 0rem 0rem;
+              "
+            />
+            <div style="margin: 20px">
+              <div
+                style="
+                  color: #000;
+                  font-family: IBM Plex Sans;
+                  font-size: 1.125rem;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: normal;
+                "
+              >
+                Artclie
+              </div>
+              <div
+                class=""
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  width: 100%;
+                  align-items: center;
+                  padding-top: 1rem;
+                "
+              >
+                <h1
+                  style="
+                    color: #000;
+                    font-family: IBM Plex Sans;
+                    font-size: 1.375rem;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 134.167%;
+                    display: inline-block;
+                    width: 37.5rem;
+                  "
+                >
+                  What if famous brands had regular fonts? Meet RegulaBrands!
+                </h1>
+                <div class="dropdown" style="display: inline-block">
+                  <button
+                    class="btn btn-light"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-three-dots"
+                      viewBox="0 0 16 16"
+                      style="color: black"
+                    >
+                      <path
+                        d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"
+                      />
+                    </svg>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                style="
+                  color: #5c5c5c;
+                  font-family: IBM Plex Sans;
+                  font-size: 1.1875rem;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 134.167%;
+                  width: 40.75rem;
+                "
+              >
+                I’ve worked in UX for the better part of a decade. From now on,
+                I plan to rei…
+              </div>
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  padding-top: 1rem;
+                "
+              >
+                <div>
+                  <div>
+                    <img
+                      src="/assets/profiles/p1.jpg"
+                      alt=""
+                      style="
+                        border-radius: 1.5rem;
+                        width: 3rem;
+                        height: 3rem;
+                        flex-shrink: 0;
+                      "
+                    />
+                    <span
+                      style="
+                        color: #000;
+                        font-family: IBM Plex Sans;
+                        font-size: 1.125rem;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                      "
+                      >Sarthak Kamra</span
+                    >
+                  </div>
+                </div>
+                <div>
+                  <div style="display: inline-block">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-eye"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                      />
+                      <path
+                        d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                      />
+                    </svg>
+                    <span
+                      style="
+                        color: #525252;
+                        text-align: right;
+                        font-family: IBM Plex Sans;
+                        font-size: 0.875rem;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                      "
+                      >1.4k views</span
+                    >
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    style="display: inline-block"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-share-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="padding-left: 15%; padding-right: 15%; padding-top: 20%">
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              border-bottom: solid #b8b8b8 1px;
+              padding-bottom: 4px;
+            "
+          >
+            <div style="display: inline-block">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-geo-alt"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                />
+                <path
+                  d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                />
+              </svg>
+              <span>Noida, India</span>
+            </div>
+            <div style="display: inline-block">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-pencil-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"
+                />
+              </svg>
+            </div>
+          </div>
+          <br />
+          <div style="display: inline-block">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-info-circle"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+              />
+              <path
+                d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+              />
+            </svg>
+            <span>
+              Your location will help us serve better and extend a personalised
+              experience.
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
